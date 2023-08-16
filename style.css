@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 225px 1fr;
+    grid-template-rows: 15% 1fr;
+}
+
+.logo {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    height: 200px;
+}
+
+.sidebar {
+    display: grid;
+    grid-row: 1 / span 3;
+    background-color: #1992d4;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-right: 1px solid black;
+
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.header {
+    display: grid;
+    grid-row: 1 / span 2;
+    background-color: #ffffff;
+}
+
+.content {
+    background-color: #e2e8f0;
+}
+
+.project-grid {
+    border: 5px solid purple;
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+/* .project-cards {
+
+} */
+
+.project-card {
+    height: 200px;
+    width: 300px;
+    border-left: 5px solid goldenrod;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    margin: 15px;
+}
+
+.card-icon-actions ul {
+    list-style: none;
+}
