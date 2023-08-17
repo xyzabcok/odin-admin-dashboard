@@ -13,7 +13,7 @@
     color: white;
     text-align: center;
     padding-top: 15px;
-    height: 200px;
+    height: 100px;
 }
 
 .sidebar {
@@ -21,7 +21,7 @@
     grid-row: 1 / span 3;
     background-color: #1992d4;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 100px 1fr 1fr;
     border-right: 1px solid black;
 
 }
